@@ -1,0 +1,5 @@
+[core]
+    remote = abcics
+['remote "abcics"']
+    url = s3://gab50212-aaa10004ve-dvc/aaic_workload
+    endpointurl = https://s3.abci.ai
