@@ -16,8 +16,11 @@ $ source ~/lib/pyenv/dvc/bin/activate
 
 ## 使い方
 
+`dvc import`は現在エラーになります。
+
 ```Console
 $ source ~/lib/pyenv/dvc/bin/activate
 (dvc) $ dvc list https://github.com/stakizawa/aaic-workload-dvc workloads
 (dvc) $ dvc get https://github.com/stakizawa/aaic-workload-dvc workloads/quarter/aaicwl-2018Q1.csv.gz
+(dvc) $ dvc import https://github.com/stakizawa/aaic-workload-dvc workloads/quarter/aaicwl-2018Q1.csv.gz
 ```
